@@ -12,4 +12,5 @@ fi
 screen -dm bot
 
 #在screen中执行命令
+#需要执行的命令最好都放在另外一个脚本中执行
 screen -x -S bot -p 0 -X stuff "bash start_bot.sh\n"
